@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Auxilliary';
 import Rolex from '../../components/Rolex/Rolex';
+import BuildControls from '../../components/Rolex/BuildControls/BuildControls';
 
 class RolexBuilder extends Component{
 
@@ -18,7 +19,7 @@ class RolexBuilder extends Component{
         return(
             <Aux>
                 <Rolex ingredients={ingredients}/>
-                <div>Build Controls</div>
+                <BuildControls/>
             </Aux>
         );
     }
