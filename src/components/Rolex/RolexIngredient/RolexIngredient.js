@@ -22,13 +22,13 @@ class RolexIngredient extends Component {
             case 'onions':
                     ingredient = <div className={classes.Meat}></div>
                     break;
-            case 'tomatoes':
+            case 'eggs':
                     ingredient = <div className={classes.Cheese}></div>
                     break;
             case 'pepper':
                     ingredient = <div className={classes.Salad}></div>
                     break;
-            case 'cabbage':
+            case 'tomatoes':
                     ingredient = <div className={classes.Bacon}></div>
                     break;
             default:
