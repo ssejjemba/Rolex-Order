@@ -4,10 +4,20 @@ import Rolex from '../../components/Rolex/Rolex';
 
 class RolexBuilder extends Component{
 
+    state = {
+        ingredients: {
+            onions: 2,
+            tomatoes: 1,
+            pepper: 1,
+            cabbage: 1
+        }
+    }
+
     render(){
+        const { ingredients } = this.state;
         return(
             <Aux>
-                <Rolex />
+                <Rolex ingredients={ingredients}/>
                 <div>Build Controls</div>
             </Aux>
         );
